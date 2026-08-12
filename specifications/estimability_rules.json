@@ -1,0 +1,22 @@
+{
+  "generic_program_mapping": {
+    "minimum_fraction": 0.8,
+    "minimum_genes": 3,
+    "duplicates": "not allowed"
+  },
+  "generic_sample_minimum_epithelial_cells": 50,
+  "formal_inference_minimum_per_group": 8,
+  "inference_requirements": [
+    "finite scores",
+    "nonzero within-group variance"
+  ],
+  "restricted_held_out_SP04": {
+    "required_genes": [
+      "ATOH1",
+      "SPDEF",
+      "DLL1"
+    ],
+    "coverage": "exact one-to-one",
+    "minimum_total": 16
+  }
+}

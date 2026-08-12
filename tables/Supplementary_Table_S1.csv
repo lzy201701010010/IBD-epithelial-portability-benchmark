@@ -1,0 +1,8 @@
+﻿dataset_accession,anatomical_context,cohort_role,biological_analysis_unit,benchmark_contribution,portability_contribution,held_out_contribution,limitation
+GSE305528,esophageal epithelial methods-seed context,METHODS_SEED_CASE,donor,Frozen methods seed and internal development context,FALSE,FALSE,methods selected in this cohort
+GSE214695,colonic IBD stress context,NEGATIVE_PORTABILITY_STRESS_TEST,donor,Preset difficult context and complete-family closure,CONTEXT_ONLY_NOT_CONFIRMATORY,FALSE,positive behavior receives no replication credit
+GSE266546,colon and terminal ileum; endoscopy and surgery retained as partitions,PROGRAM_SPECIFIC_REFERENCE_BENCHMARK_NOT_GLOBAL_LOCO,donor clustered across separate partitions,Frozen program-specific cohort inference contributing to portability,TRUE,FALSE,historical label exposure events preserved
+SCP1884,colon and terminal ileum,INDEPENDENT_HELD_OUT_VALIDATION_COHORT_WITH_DOCUMENTED_PREINFERENCE_SINGLE_ROW_METADATA_EXPOSURE,donor,Final restricted held-out validation of eligible SP04 only,FALSE,TRUE_SP04_ONLY,restricted held out validation after documented preinference metadata exposure
+S-BSST2944;E-MTAB-16998;E-MTAB-16999,terminal ileum,IBDVERSE_INITIAL_INDEPENDENT_TIER1_HELDOUT_COHORT,donor,Frozen donor-level held-out inference contributing to portability,TRUE,FALSE,terminal ileum cohort specific scope
+GSE164985,reference context,REFERENCE_ONLY,donor,Context-only reference candidate,FALSE,FALSE,small n context only
+GSE282122,longitudinal reference context,REFERENCE_ONLY,donor,Longitudinal context-only reference candidate,FALSE,FALSE,longitudinal context only

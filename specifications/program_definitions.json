@@ -1,0 +1,236 @@
+[
+  {
+    "program_id": "SP01",
+    "name": "LND",
+    "family": "PRIMARY",
+    "genes": [
+      "LCN2",
+      "NOS2",
+      "DUOX2"
+    ],
+    "evidence_tier": "EVIDENCE_TIER_2",
+    "claim_ceiling": "SINGLE_HELDOUT_DIRECTIONAL_REPLICATION_ASSESSABLE",
+    "primary_scope": "INCLUSIVE_EPITHELIAL",
+    "strict_historical_rule": null
+  },
+  {
+    "program_id": "SP02",
+    "name": "INFLARE",
+    "family": "PRIMARY",
+    "genes": [
+      "MUC6",
+      "BPIFB1",
+      "AQP5",
+      "PGC"
+    ],
+    "evidence_tier": "EVIDENCE_TIER_1",
+    "claim_ceiling": "PROGRAM_SPECIFIC_CROSS_COHORT_PORTABILITY_ASSESSABLE",
+    "primary_scope": "INCLUSIVE_EPITHELIAL",
+    "strict_historical_rule": null
+  },
+  {
+    "program_id": "SP03",
+    "name": "REGENERATIVE",
+    "family": "PRIMARY",
+    "genes": [
+      "CLU",
+      "ANXA1",
+      "SOX9",
+      "TACSTD2"
+    ],
+    "evidence_tier": "EVIDENCE_TIER_1",
+    "claim_ceiling": "PROGRAM_SPECIFIC_CROSS_COHORT_PORTABILITY_ASSESSABLE",
+    "primary_scope": "INCLUSIVE_EPITHELIAL",
+    "strict_historical_rule": null
+  },
+  {
+    "program_id": "SP04",
+    "name": "SECRETORY_DIFFERENTIATION",
+    "family": "PRIMARY",
+    "genes": [
+      "ATOH1",
+      "SPDEF",
+      "DLL1"
+    ],
+    "evidence_tier": "EVIDENCE_TIER_1",
+    "claim_ceiling": "PROGRAM_SPECIFIC_CROSS_COHORT_PORTABILITY_ASSESSABLE",
+    "primary_scope": "INCLUSIVE_EPITHELIAL",
+    "strict_historical_rule": null
+  },
+  {
+    "program_id": "SP05",
+    "name": "GENERIC_STRESS",
+    "family": "SECONDARY",
+    "genes": [
+      "FOS",
+      "JUN",
+      "JUNB",
+      "ATF3",
+      "HSPA1A",
+      "HSPA1B",
+      "DDIT3"
+    ],
+    "evidence_tier": "EVIDENCE_TIER_1",
+    "claim_ceiling": "PROGRAM_SPECIFIC_CROSS_COHORT_PORTABILITY_ASSESSABLE",
+    "primary_scope": "INCLUSIVE_EPITHELIAL",
+    "strict_historical_rule": null
+  },
+  {
+    "program_id": "SP06",
+    "name": "CYCLING_TA",
+    "family": "SECONDARY",
+    "genes": [
+      "MKI67",
+      "TOP2A",
+      "PCNA",
+      "UBE2C",
+      "CENPF",
+      "TUBA1B"
+    ],
+    "evidence_tier": "EVIDENCE_TIER_1",
+    "claim_ceiling": "PROGRAM_SPECIFIC_CROSS_COHORT_PORTABILITY_ASSESSABLE",
+    "primary_scope": "INCLUSIVE_EPITHELIAL",
+    "strict_historical_rule": null
+  },
+  {
+    "program_id": "SP07",
+    "name": "ANTIMICROBIAL",
+    "family": "SECONDARY",
+    "genes": [
+      "DEFA5",
+      "DEFA6",
+      "LYZ",
+      "REG3A"
+    ],
+    "evidence_tier": "EVIDENCE_TIER_1",
+    "claim_ceiling": "PROGRAM_SPECIFIC_CROSS_COHORT_PORTABILITY_ASSESSABLE",
+    "primary_scope": "INCLUSIVE_EPITHELIAL",
+    "strict_historical_rule": null
+  },
+  {
+    "program_id": "SP08",
+    "name": "STRICT_ISP_STATE",
+    "family": "LEGACY_FAILURE",
+    "genes": [],
+    "evidence_tier": "EVIDENCE_TIER_3",
+    "claim_ceiling": "CONTEXT_OR_FAILURE_AUDIT_ONLY",
+    "primary_scope": "INCLUSIVE_EPITHELIAL",
+    "strict_historical_rule": {
+      "version": "T05-SCORE-v1.1",
+      "candidate_field": "T05_target_lineage_candidate",
+      "core_genes": [
+        "OLFM4",
+        "HLA-DRA",
+        "LCN2",
+        "REG1A",
+        "CD74",
+        "PLA2G2A"
+      ],
+      "expanded_genes": [
+        "DMBT1",
+        "REG1A",
+        "REG1B",
+        "LCN2",
+        "CD74",
+        "HLA-DRA",
+        "PLA2G2A",
+        "PI3",
+        "DUOXA2",
+        "SPINK1",
+        "HLA-DPA1",
+        "DUOX2",
+        "IFITM3",
+        "MUC1",
+        "ASS1",
+        "CCL20",
+        "PSMB9",
+        "CASP1",
+        "CXCL1",
+        "HLA-DMA",
+        "IFI27",
+        "CEACAM5",
+        "MUC4"
+      ],
+      "robust_z_threshold": 1.645,
+      "core_detected_minimum": 3,
+      "progenitor_anchor_minimum": 1,
+      "inflammatory_anchor_minimum": 2,
+      "competitor_percentile_threshold": 0.99,
+      "IBDverse_status": "NOT_ESTIMABLE_FROZEN_CANDIDATE_FIELD_ABSENT_NO_RESCUE"
+    }
+  },
+  {
+    "program_id": "SP09",
+    "name": "ISP_CORE",
+    "family": "LEGACY_FAILURE",
+    "genes": [
+      "OLFM4",
+      "HLA-DRA",
+      "LCN2",
+      "REG1A",
+      "CD74",
+      "PLA2G2A"
+    ],
+    "evidence_tier": "EVIDENCE_TIER_3",
+    "claim_ceiling": "CONTEXT_OR_FAILURE_AUDIT_ONLY",
+    "primary_scope": "INCLUSIVE_EPITHELIAL",
+    "strict_historical_rule": null
+  },
+  {
+    "program_id": "SP10",
+    "name": "ISP_EXPANDED",
+    "family": "LEGACY_FAILURE",
+    "genes": [
+      "DMBT1",
+      "REG1A",
+      "REG1B",
+      "LCN2",
+      "CD74",
+      "HLA-DRA",
+      "PLA2G2A",
+      "PI3",
+      "DUOXA2",
+      "SPINK1",
+      "HLA-DPA1",
+      "DUOX2",
+      "IFITM3",
+      "MUC1",
+      "ASS1",
+      "CCL20",
+      "PSMB9",
+      "CASP1",
+      "CXCL1",
+      "HLA-DMA",
+      "IFI27",
+      "CEACAM5",
+      "MUC4"
+    ],
+    "evidence_tier": "EVIDENCE_TIER_3",
+    "claim_ceiling": "CONTEXT_OR_FAILURE_AUDIT_ONLY",
+    "primary_scope": "INCLUSIVE_EPITHELIAL",
+    "strict_historical_rule": null
+  },
+  {
+    "program_id": "SP11",
+    "name": "CISP_FAILED_CANDIDATE",
+    "family": "LEGACY_FAILURE",
+    "genes": [
+      "PI3",
+      "MUC4",
+      "STAT1",
+      "CXCL1",
+      "HLA-DMA",
+      "MTRNR2L12",
+      "PSME2",
+      "PLCG2",
+      "TAPBP",
+      "HEXIM1",
+      "ENO1",
+      "PSMB8"
+    ],
+    "evidence_tier": "EVIDENCE_TIER_3",
+    "claim_ceiling": "CONTEXT_OR_FAILURE_AUDIT_ONLY",
+    "primary_scope": "INCLUSIVE_EPITHELIAL",
+    "strict_historical_rule": null
+  }
+]

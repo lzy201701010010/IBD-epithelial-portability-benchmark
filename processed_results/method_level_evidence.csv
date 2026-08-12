@@ -1,0 +1,60 @@
+﻿program,program_name,method,cohort,analysis_unit,direction,adjusted_support,method_classification,program_implication
+SP02,INFLARE,SM01,IBDverse,donor,positive,no adjusted support,DIRECTIONALLY_CONSISTENT_LIMITED,contributes to cross-cohort program classification
+SP02,INFLARE,SM01,GSE266546,donor-clustered GEE with partition term,positive,adjusted support,DIRECTIONALLY_CONSISTENT_LIMITED,contributes to cross-cohort program classification
+SP02,INFLARE,SM03,IBDverse,donor,positive,no adjusted support,DIRECTIONALLY_CONSISTENT_LIMITED,contributes to cross-cohort program classification
+SP02,INFLARE,SM03,GSE266546,donor-clustered GEE with partition term,positive,adjusted support,DIRECTIONALLY_CONSISTENT_LIMITED,contributes to cross-cohort program classification
+SP03,REGENERATIVE,SM01,IBDverse,donor,positive,adjusted support,STRONG_PORTABLE,contributes to cross-cohort program classification
+SP03,REGENERATIVE,SM01,GSE266546,donor-clustered GEE with partition term,positive,adjusted support,STRONG_PORTABLE,contributes to cross-cohort program classification
+SP03,REGENERATIVE,SM03,IBDverse,donor,positive,adjusted support,STRONG_PORTABLE,contributes to cross-cohort program classification
+SP03,REGENERATIVE,SM03,GSE266546,donor-clustered GEE with partition term,positive,adjusted support,STRONG_PORTABLE,contributes to cross-cohort program classification
+SP04,SECRETORY_DIFFERENTIATION,SM01,IBDverse,donor,positive,adjusted support,STRONG_PORTABLE,contributes to cross-cohort program classification
+SP04,SECRETORY_DIFFERENTIATION,SM01,GSE266546,donor-clustered GEE with partition term,positive,adjusted support,STRONG_PORTABLE,contributes to cross-cohort program classification
+SP04,SECRETORY_DIFFERENTIATION,SM03,IBDverse,donor,positive,adjusted support,STRONG_PORTABLE,contributes to cross-cohort program classification
+SP04,SECRETORY_DIFFERENTIATION,SM03,GSE266546,donor-clustered GEE with partition term,positive,adjusted support,STRONG_PORTABLE,contributes to cross-cohort program classification
+SP05,GENERIC_STRESS,SM01,IBDverse,donor,positive,adjusted support,DIRECTIONALLY_CONSISTENT_LIMITED,contributes to cross-cohort program classification
+SP05,GENERIC_STRESS,SM01,GSE266546,donor-clustered GEE with partition term,positive,no adjusted support,DIRECTIONALLY_CONSISTENT_LIMITED,contributes to cross-cohort program classification
+SP05,GENERIC_STRESS,SM03,IBDverse,donor,positive,adjusted support,DIRECTIONALLY_CONSISTENT_LIMITED,contributes to cross-cohort program classification
+SP05,GENERIC_STRESS,SM03,GSE266546,donor-clustered GEE with partition term,positive,no adjusted support,DIRECTIONALLY_CONSISTENT_LIMITED,contributes to cross-cohort program classification
+SP06,CYCLING_TA,SM01,IBDverse,donor,negative,adjusted support,DISCORDANT,contributes to cross-cohort program classification
+SP06,CYCLING_TA,SM01,GSE266546,donor-clustered GEE with partition term,positive,no adjusted support,DISCORDANT,contributes to cross-cohort program classification
+SP06,CYCLING_TA,SM03,IBDverse,donor,positive,no adjusted support,DIRECTIONALLY_CONSISTENT_LIMITED,contributes to cross-cohort program classification
+SP06,CYCLING_TA,SM03,GSE266546,donor-clustered GEE with partition term,positive,adjusted support,DIRECTIONALLY_CONSISTENT_LIMITED,contributes to cross-cohort program classification
+SP07,ANTIMICROBIAL,SM01,IBDverse,donor,positive,no adjusted support,CONSISTENT_INSUFFICIENT_EVIDENCE,contributes to cross-cohort program classification
+SP07,ANTIMICROBIAL,SM01,GSE266546,donor-clustered GEE with partition term,positive,no adjusted support,CONSISTENT_INSUFFICIENT_EVIDENCE,contributes to cross-cohort program classification
+SP07,ANTIMICROBIAL,SM03,IBDverse,donor,negative,no adjusted support,DISCORDANT,contributes to cross-cohort program classification
+SP07,ANTIMICROBIAL,SM03,GSE266546,donor-clustered GEE with partition term,positive,adjusted support,DISCORDANT,contributes to cross-cohort program classification
+SP02,INFLARE,SM02,IBDverse,donor,positive,no adjusted support,CONSISTENT_INSUFFICIENT_EVIDENCE,contributes to cross-cohort program classification
+SP02,INFLARE,SM02,GSE266546,donor-clustered GEE with partition term,positive,no adjusted support,CONSISTENT_INSUFFICIENT_EVIDENCE,contributes to cross-cohort program classification
+SP03,REGENERATIVE,SM02,IBDverse,donor,negative,no adjusted support,DISCORDANT,contributes to cross-cohort program classification
+SP03,REGENERATIVE,SM02,GSE266546,donor-clustered GEE with partition term,positive,adjusted support,DISCORDANT,contributes to cross-cohort program classification
+SP04,SECRETORY_DIFFERENTIATION,SM02,IBDverse,donor,positive,adjusted support,STRONG_PORTABLE,contributes to cross-cohort program classification
+SP04,SECRETORY_DIFFERENTIATION,SM02,GSE266546,donor-clustered GEE with partition term,positive,adjusted support,STRONG_PORTABLE,contributes to cross-cohort program classification
+SP05,GENERIC_STRESS,SM02,IBDverse,donor,negative,no adjusted support,DISCORDANT,contributes to cross-cohort program classification
+SP05,GENERIC_STRESS,SM02,GSE266546,donor-clustered GEE with partition term,positive,no adjusted support,DISCORDANT,contributes to cross-cohort program classification
+SP06,CYCLING_TA,SM02,IBDverse,donor,negative,adjusted support,DISCORDANT,contributes to cross-cohort program classification
+SP06,CYCLING_TA,SM02,GSE266546,donor-clustered GEE with partition term,positive,no adjusted support,DISCORDANT,contributes to cross-cohort program classification
+SP07,ANTIMICROBIAL,SM02,IBDverse,donor,negative,no adjusted support,DISCORDANT,contributes to cross-cohort program classification
+SP07,ANTIMICROBIAL,SM02,GSE266546,donor-clustered GEE with partition term,positive,adjusted support,DISCORDANT,contributes to cross-cohort program classification
+SP08,STRICT_ISP_STATE,STRICT_ISP_EXACT,IBDverse,donor,not estimable,not estimable,SP08_NOT_ESTIMABLE_FAILURE_AUDIT,contributes to cross-cohort program classification
+SP08,STRICT_ISP_STATE,STRICT_ISP_EXACT,GSE266546,donor-clustered GEE with partition term,not estimable,not estimable,SP08_NOT_ESTIMABLE_FAILURE_AUDIT,contributes to cross-cohort program classification
+SP09,ISP_CORE,SM01,IBDverse,donor,negative,no adjusted support,GOVERNANCE_ONLY_NEGATIVE_OR_FAILURE_AUDIT,contributes to cross-cohort program classification
+SP09,ISP_CORE,SM01,GSE266546,donor-clustered GEE with partition term,positive,adjusted support,GOVERNANCE_ONLY_NEGATIVE_OR_FAILURE_AUDIT,contributes to cross-cohort program classification
+SP09,ISP_CORE,SM02,IBDverse,donor,negative,adjusted support,GOVERNANCE_ONLY_NEGATIVE_OR_FAILURE_AUDIT,contributes to cross-cohort program classification
+SP09,ISP_CORE,SM02,GSE266546,donor-clustered GEE with partition term,positive,adjusted support,GOVERNANCE_ONLY_NEGATIVE_OR_FAILURE_AUDIT,contributes to cross-cohort program classification
+SP09,ISP_CORE,SM03,IBDverse,donor,positive,no adjusted support,GOVERNANCE_ONLY_NEGATIVE_OR_FAILURE_AUDIT,contributes to cross-cohort program classification
+SP09,ISP_CORE,SM03,GSE266546,donor-clustered GEE with partition term,positive,adjusted support,GOVERNANCE_ONLY_NEGATIVE_OR_FAILURE_AUDIT,contributes to cross-cohort program classification
+SP10,ISP_EXPANDED,SM01,IBDverse,donor,negative,no adjusted support,GOVERNANCE_ONLY_NEGATIVE_OR_FAILURE_AUDIT,contributes to cross-cohort program classification
+SP10,ISP_EXPANDED,SM01,GSE266546,donor-clustered GEE with partition term,positive,adjusted support,GOVERNANCE_ONLY_NEGATIVE_OR_FAILURE_AUDIT,contributes to cross-cohort program classification
+SP10,ISP_EXPANDED,SM02,IBDverse,donor,negative,no adjusted support,GOVERNANCE_ONLY_NEGATIVE_OR_FAILURE_AUDIT,contributes to cross-cohort program classification
+SP10,ISP_EXPANDED,SM02,GSE266546,donor-clustered GEE with partition term,positive,adjusted support,GOVERNANCE_ONLY_NEGATIVE_OR_FAILURE_AUDIT,contributes to cross-cohort program classification
+SP10,ISP_EXPANDED,SM03,IBDverse,donor,positive,no adjusted support,GOVERNANCE_ONLY_NEGATIVE_OR_FAILURE_AUDIT,contributes to cross-cohort program classification
+SP10,ISP_EXPANDED,SM03,GSE266546,donor-clustered GEE with partition term,positive,adjusted support,GOVERNANCE_ONLY_NEGATIVE_OR_FAILURE_AUDIT,contributes to cross-cohort program classification
+SP11,CISP_FAILED_CANDIDATE,SM01,IBDverse,donor,negative,no adjusted support,GOVERNANCE_ONLY_NEGATIVE_OR_FAILURE_AUDIT,contributes to cross-cohort program classification
+SP11,CISP_FAILED_CANDIDATE,SM01,GSE266546,donor-clustered GEE with partition term,positive,adjusted support,GOVERNANCE_ONLY_NEGATIVE_OR_FAILURE_AUDIT,contributes to cross-cohort program classification
+SP11,CISP_FAILED_CANDIDATE,SM02,IBDverse,donor,negative,adjusted support,GOVERNANCE_ONLY_NEGATIVE_OR_FAILURE_AUDIT,contributes to cross-cohort program classification
+SP11,CISP_FAILED_CANDIDATE,SM02,GSE266546,donor-clustered GEE with partition term,positive,adjusted support,GOVERNANCE_ONLY_NEGATIVE_OR_FAILURE_AUDIT,contributes to cross-cohort program classification
+SP11,CISP_FAILED_CANDIDATE,SM03,IBDverse,donor,negative,no adjusted support,GOVERNANCE_ONLY_NEGATIVE_OR_FAILURE_AUDIT,contributes to cross-cohort program classification
+SP11,CISP_FAILED_CANDIDATE,SM03,GSE266546,donor-clustered GEE with partition term,positive,adjusted support,GOVERNANCE_ONLY_NEGATIVE_OR_FAILURE_AUDIT,contributes to cross-cohort program classification
+SP04,SECRETORY_DIFFERENTIATION,SM01,SCP1884,CANONICAL_donor,positive,adjusted support,FINAL_METHOD_SUPPORTED,held-out supported
+SP04,SECRETORY_DIFFERENTIATION,SM02,SCP1884,CANONICAL_donor,positive,adjusted support,FINAL_METHOD_SUPPORTED,held-out supported
+SP04,SECRETORY_DIFFERENTIATION,SM03,SCP1884,CANONICAL_donor,positive,adjusted support,FINAL_METHOD_SUPPORTED,held-out supported

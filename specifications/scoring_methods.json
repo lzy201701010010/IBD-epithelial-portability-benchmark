@@ -1,0 +1,16 @@
+{
+  "SM01": {
+    "name": "mean log1p counts per 10,000",
+    "definition": "Arithmetic mean across registered genes of log1p-transformed counts per 10,000.",
+    "formal_call_note": "No additional robust-z transformation was applied to formal portability or held-out calls."
+  },
+  "SM02": {
+    "name": "within-cell percentile-rank mean",
+    "definition": "Average ranks across the complete feature universe, transformed to (rank-1)/(N-1) percentiles, then averaged for registered genes.",
+    "tie_method": "average"
+  },
+  "SM03": {
+    "name": "detection fraction",
+    "definition": "Fraction of registered genes with raw counts greater than zero."
+  }
+}

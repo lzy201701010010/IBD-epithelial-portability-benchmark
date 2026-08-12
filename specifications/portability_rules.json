@@ -1,0 +1,23 @@
+{
+  "basis": "standardized direction and cohort-specific adjusted support; no cross-scale magnitude comparison",
+  "method_precedence": [
+    "DISCORDANT",
+    "STRONG_PORTABLE",
+    "DIRECTIONALLY_CONSISTENT_LIMITED",
+    "CONSISTENT_INSUFFICIENT_EVIDENCE"
+  ],
+  "program_precedence": [
+    "role override",
+    "formal non-estimability",
+    "DISCORDANT",
+    "PORTABLE",
+    "PARTIALLY_PORTABLE_CONTEXT_DEPENDENT",
+    "DIRECTIONALLY_CONSISTENT_INSUFFICIENT",
+    "INCONCLUSIVE"
+  ],
+  "program_rules": {
+    "PORTABLE": "at least two STRONG_PORTABLE methods without discordance",
+    "PARTIALLY_PORTABLE_CONTEXT_DEPENDENT": "at least two concordant methods including at least one STRONG_PORTABLE method without discordance",
+    "DIRECTIONALLY_CONSISTENT_INSUFFICIENT": "at least two concordant methods without strong support and without discordance"
+  }
+}

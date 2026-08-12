@@ -1,0 +1,9 @@
+﻿item,publication_facing_summary
+Timing,A single-row metadata exposure occurred before donor aggregation or inferential testing.
+Exposed scope,"One Type value, one disease value and 14 other prohibited values were viewed within one event; exposed row content is not reproduced."
+Affected attempt,The affected preparation attempt was terminated and excluded.
+Rule stability,"No program, threshold, score, aggregation, model, multiplicity or classification rule changed."
+Recovery,Recovery was limited to parser behavior and added no new exposure event.
+Historical accounting,Five earlier exposure events plus the affected event produced a cumulative count of six.
+Evidence qualifier,Subsequent support is described as restricted held-out validation.
+Reproducibility,"Predefined specifications, immutable result records and independent integrity checks were retained."

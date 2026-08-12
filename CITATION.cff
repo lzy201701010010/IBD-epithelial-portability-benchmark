@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use this publication reproducibility release, please cite the associated manuscript and this software release."
+title: "Donor-level benchmarking of cross-cohort portability for epithelial programs in inflammatory bowel disease: publication reproducibility release"
+type: software
+version: "1.0.0"
+date-released: 2026-08-13
+license: MIT
+authors:
+  - family-names: Li
+    given-names: Zhiyao
+    orcid: "https://orcid.org/0009-0001-2696-6730"
+  - family-names: Wang
+    given-names: Lili
+    orcid: "https://orcid.org/0009-0006-3120-1026"
+  - family-names: Luo
+    given-names: Qinghua
+    orcid: "https://orcid.org/0000-0001-9767-9117"
+  - family-names: Wu
+    given-names: Yunxiang
+    orcid: "https://orcid.org/0009-0008-7343-5503"
+repository-code: "https://github.com/lzy201701010010/IBD-epithelial-portability-benchmark"
+keywords:
+  - inflammatory bowel disease
+  - single-cell transcriptomics
+  - epithelial programs
+  - cross-cohort portability
+  - donor-level analysis
+  - benchmarking
+  - reproducibility

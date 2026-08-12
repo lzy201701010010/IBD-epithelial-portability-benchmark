@@ -1,0 +1,5 @@
+﻿program,role,observed_pattern,estimability,portability_contribution,specificity_implication
+SP08,FAILURE_AUDIT,SP08_NOT_ESTIMABLE_FAILURE_AUDIT,not estimable; no rescue,none,constrains interpretation; does not prove specificity
+SP09,NEGATIVE_COMPARATOR,GOVERNANCE_ONLY_NEGATIVE_OR_FAILURE_AUDIT,estimable where defined; non-primary,none,constrains interpretation; does not prove specificity
+SP10,NEGATIVE_COMPARATOR,GOVERNANCE_ONLY_NEGATIVE_OR_FAILURE_AUDIT,estimable where defined; non-primary,none,constrains interpretation; does not prove specificity
+SP11,NEGATIVE_COMPARATOR,GOVERNANCE_ONLY_NEGATIVE_OR_FAILURE_AUDIT,estimable where defined; non-primary,none,constrains interpretation; does not prove specificity
