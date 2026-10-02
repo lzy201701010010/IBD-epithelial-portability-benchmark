@@ -1,0 +1,23 @@
+{
+  "matrix_cell_id": "barcode TSV row, exactly equals metadata NAME and CellID",
+  "sample": "biosample_id",
+  "participant_donor": "donor_id",
+  "source_phenotype": "disease",
+  "RA08_group": {
+    "SCP1422": "FGID / non-IBD / non-inflammatory comparator",
+    "SCP1423": "Crohn disease"
+  },
+  "treatment_status": "disease__treated exactly FALSE",
+  "baseline_timepoint": "biosample_id contains exact T0D component",
+  "author_annotation": [
+    "cell_type__custom",
+    "cell_type__ontology_label"
+  ],
+  "tissue": "organ exactly UBERON_0000331; source paper and portal describe ileal mucosa",
+  "source": {
+    "SCP1422": "FGID",
+    "SCP1423": "CD"
+  },
+  "structural_noncell_record": "CSV line 2 NAME=TYPE, CellID=group, donor_id=group, biosample_id=group in each study; excluded from expression join as a schema declaration",
+  "identifier_normalization": "NONE; exact byte-decoded equality"
+}
