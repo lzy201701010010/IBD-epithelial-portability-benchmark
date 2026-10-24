@@ -1,0 +1,172 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "RA08 static input specification; not an executable configuration",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "predict_metadata_rows",
+    "elmentaite_bridge_rows",
+    "input_references"
+  ],
+  "properties": {
+    "predict_metadata_rows": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "NAME",
+          "CellID",
+          "biosample_id",
+          "donor_id",
+          "disease",
+          "disease__treated",
+          "cell_type__custom",
+          "cell_type__ontology_label",
+          "number_of_reads",
+          "nFeature_RNA",
+          "organ"
+        ],
+        "properties": {
+          "NAME": {
+            "type": "string",
+            "minLength": 1
+          },
+          "CellID": {
+            "type": "string",
+            "minLength": 1
+          },
+          "biosample_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "donor_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "disease": {
+            "type": "string",
+            "minLength": 1
+          },
+          "disease__treated": {
+            "type": "string",
+            "minLength": 1
+          },
+          "cell_type__custom": {
+            "type": "string",
+            "minLength": 1
+          },
+          "cell_type__ontology_label": {
+            "type": "string",
+            "minLength": 1
+          },
+          "number_of_reads": {
+            "type": "string",
+            "minLength": 1
+          },
+          "nFeature_RNA": {
+            "type": "string",
+            "minLength": 1
+          },
+          "organ": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "additionalProperties": true
+      }
+    },
+    "elmentaite_bridge_rows": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "source_cell_id",
+          "source_sample_name",
+          "participant_id",
+          "epithelial_disposition",
+          "ra08_group"
+        ],
+        "properties": {
+          "source_cell_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "source_sample_name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "participant_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "epithelial_disposition": {
+            "type": "string",
+            "minLength": 1
+          },
+          "ra08_group": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "additionalProperties": true
+      }
+    },
+    "input_references": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "predict_FGID_matrix",
+        "predict_CD_matrix",
+        "elmentaite_h5ad",
+        "program_registry",
+        "annotation_policy",
+        "input_gate",
+        "recovery_gate"
+      ],
+      "properties": {
+        "predict_FGID_matrix": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "predict_CD_matrix": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "elmentaite_h5ad": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "program_registry": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "annotation_policy": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "input_gate": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "recovery_gate": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    }
+  }
+}

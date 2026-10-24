@@ -1,0 +1,4 @@
+# Historical top-level versions from Phase2F/2G receipts; NOT a complete lock or current runtime validation.
+numpy==2.3.5
+scipy==1.18.1
+h5py==3.16.0

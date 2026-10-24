@@ -1,0 +1,7 @@
+﻿script,manuscript_location,role,boundary
+historical_layout\12_RA08_extension\RA08_B1R_R1_PREDICT_ALIGNMENT_20260929\score_and_analyze.py,Methods external layer; Supplement S10; Table S8,Original scoring and inference implementation,Preserved original CSR failure; no fresh execution
+historical_layout\12_RA08_extension\RA08_B1R_R1_PREDICT_ALIGNMENT_20260929\resume_unsorted_csr.py,Supplement S10 and Results S6; Table S8,Final historical recovery and assembly,Both donor TSVs numerical; all six hashes preserved
+historical_layout\12_RA08_extension\RA08_B1R_R1_PREDICT_ALIGNMENT_20260929\freeze_input_gate.py,Supplement S10/S11 provenance,Initial input gate builder,Consumes additional provenance and source objects not shipped
+historical_layout\12_RA08_extension\RA08_B1R_R1_PREDICT_ALIGNMENT_20260929\freeze_recovery_gate.py,Supplement S10/S11 technical recovery,Recovery provenance gate builder,Not a new permission or prospective registration
+historical_layout\12_RA08_extension\RA08_B1R_R1_PREDICT_ALIGNMENT_20260929\independent_verify_results.py,Supplement S11 provenance,Historical numerical consistency verifier,Not independent biological validation; no execution here
+historical_layout\12_RA08_extension\RA08_B1R_R1_PREDICT_ALIGNMENT_20260929\audit_elmentaite_csr_order.py,Supplement S10 source compatibility,CSR storage-order audit,No raw H5AD access here

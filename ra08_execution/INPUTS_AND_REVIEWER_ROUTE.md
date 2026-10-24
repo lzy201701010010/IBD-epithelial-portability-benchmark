@@ -1,0 +1,13 @@
+# Input objects and permissions
+
+The dependencies below describe the original registered source route and its limits. This software release grants no source-data access. Reviewers obtain source materials from their custodians under the applicable terms; historical project-control records are not included.
+
+PREDICT needs the eight exact SCP1422/SCP1423 processed matrix, feature, barcode and metadata inputs; the frozen annotation policy; and historical audit/gate records. Metadata fields link cells to biosample_id and donor_id and define baseline, treatment and epithelial inclusion. Reviewers use their own entitled repository access. The two donor TSVs are numeric recovery inputs. The four cell/sample checkpoints remain required by the unchanged recovery hash gate; the independent verifier also needs cell NPZs. A lawful source reconstruction can be an alternative to direct provision of old checkpoints, but has not been performed here. DUOS FASTQ is not required by this registered processed-input route.
+
+Elmentaite needs the historical pediatric H5AD raw.X, obs/index and raw/var/index plus a source_cell_id/source_sample_name/participant_id/epithelial_disposition/ra08_group bridge. Public website availability does not establish an exact historical version or permission to redistribute the derived bridge. No bridge values or container were read or included. The included schema is structure only, not a reconstructed bridge.
+
+The original SP04 restricted held-out layer requires the seven registered SCP1884 epithelial source members and necessary Type/donor/sample linkage or a lawful minimal equivalent. It is outside these six RA08 scripts. Original published benchmark code and aggregate records remain separate from restricted source values.
+
+SCP public-study terms allow public reuse while protecting private/embargoed objects and requiring individual accounts. Exact object entitlements must follow their actual status; do not use the authors’ credentials or disclose protected fields. Minimal approved numerical materials or independently entitled source reconstruction are alternatives, not actions already completed.
+
+Static follow-up of the historical bridge builder (freeze_elmentaite.py, read only) identifies an additional dependency: the frozen RA08_B0_8R_ELMENTAITE_CELL_SAMPLE_DONOR_CROSSWALK.csv maps H5AD Sample name to SDRF sample and participant IDs. The epithelial-label disposition is also consumed separately. H5AD alone is not the complete documented reconstruction recipe. Neither source crosswalk values nor metadata extracts were read or included. The builder is not added to the six-script release scope and was not executed or imported.

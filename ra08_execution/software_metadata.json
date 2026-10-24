@@ -1,0 +1,28 @@
+{
+  "title": "RA08 execution code for the IBD Epithelial State Portability Benchmark",
+  "description": "Six frozen author-owned historical scripts plus safe program configuration and documentation; excludes all source data, protected mappings and checkpoints. Current end-to-end reproduction has not been established.",
+  "creators": [
+    {
+      "name": "Li, Zhiyao",
+      "orcid": "0009-0001-2696-6730"
+    },
+    {
+      "name": "Wang, Lili",
+      "orcid": "0009-0006-3120-1026"
+    },
+    {
+      "name": "Luo, Qinghua",
+      "orcid": "0000-0001-9767-9117"
+    },
+    {
+      "name": "Wu, Yunxiang",
+      "orcid": "0009-0008-7343-5503"
+    }
+  ],
+  "resource_type": "software",
+  "language": "eng",
+  "public_version": "1.2.0",
+  "licence": "MIT",
+  "related_public_original": "https://doi.org/10.5281/zenodo.23104779",
+  "relation": "additive software version; original benchmark and frozen scientific results unchanged"
+}
